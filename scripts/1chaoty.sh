@@ -36,25 +36,25 @@ echo y | yay -S --needed noto-fonts-emoji noto-fonts-extra
 echo CONFIGURING DOTFILES......................................................
 rm ~/.config/fish/config.fish
 mkdir ~/.config/fish
-cp ~/carchy/confs/config.fish ~/.config/fish
+cp ~/midots/confs/config.fish ~/.config/fish
 
 rm -rf ~/.config/uwsm
 mkdir ~/.config/uwsm
-cp ~/carchy/confs/env ~/.config/uwsm
+cp ~/midots/confs/env ~/.config/uwsm
 
 rm -rf ~/.config/kitty
 mkdir ~/.config/kitty
-cp ~/carchy/confs/kitty.conf ~/.config/kitty
-cp ~/carchy/confs/Catppuccin-Mocha.conf ~/.config/kitty
+cp ~/midots/confs/kitty.conf ~/.config/kitty
+cp ~/midots/confs/Catppuccin-Mocha.conf ~/.config/kitty
 
 mkdir ~/.config/fuzzel
-cp ~/carchy/confs/fuzzel.ini ~/.config/fuzzel
+cp ~/midots/confs/fuzzel.ini ~/.config/fuzzel
 
 rm -rf ~/.config/hypr
 mkdir ~/.config/hypr
-cp ~/carchy/confs/hyprland.conf ~/.config/hypr
-cp ~/carchy/confs/hypridle.conf ~/.config/hypr
-cp ~/carchy/confs/hyprlock.conf ~/.config/hypr
+cp ~/midots/confs/hyprland.conf ~/.config/hypr
+cp ~/midots/confs/hypridle.conf ~/.config/hypr
+cp ~/midots/confs/hyprlock.conf ~/.config/hypr
 
 chsh -s /usr/bin/fish
 

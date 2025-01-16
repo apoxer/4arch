@@ -1,8 +1,9 @@
 echo .........................................................................
 cd
-swww img ~/carchy/walls-catppuccin-mocha/pompeii.png
+git clone https://github.com/orangci/walls-catppuccin-mocha
+swww img ~/walls-catppuccin-mocha/pompeii.png
 
-wl-copy < ~/carchy/neovim.txt
+wl-copy < ~/4arch/scripts/neovim.txt
 git clone https://github.com/NvChad/starter ~/.config/nvim
 nvim ~/.config/nvim/init.lua
 

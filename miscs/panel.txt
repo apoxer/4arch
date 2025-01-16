@@ -1,0 +1,1 @@
+{"*":{"left":["dashboard","clock","workspaces"],"middle":["windowtitle"],"right":["media","volume","network","bluetooth","battery","systray","notifications"]}}
